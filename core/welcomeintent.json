@@ -1,0 +1,28 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Welcome to Cybersecurity Hub - your one stop destination for ctf's,news and ctf walkthroughs",
+                "displayText": "Welcome to Cybersecurity Hub - your one stop destination for ctf's,news and ctf walkthroughs"
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "CTF's"
+            },
+            {
+              "title": "News"
+            },
+            {
+              "title": "CTF walkthrough"
+            }
+          ]
+        }
+      }
+    }
+  }

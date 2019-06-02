@@ -1,0 +1,113 @@
+Request {
+  "responseId": "3288e80e-4152-4267-b0b8-510334c5329a",
+  "queryResult": {
+    "queryText": "CTF's",
+    "parameters": {},
+    "allRequiredParamsPresent": true,
+    "fulfillmentMessages": [
+      {
+        "text": {
+          "text": [
+            ""
+          ]
+        }
+      }
+    ],
+    "outputContexts": [
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/google_assistant_input_type_touch"
+      },
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/actions_capability_screen_output"
+      },
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/actions_capability_audio_output"
+      },
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/actions_capability_account_linking"
+      },
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/actions_capability_media_response_audio"
+      },
+      {
+        "name": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX/contexts/actions_capability_web_browser"
+      }
+    ],
+    "intent": {
+      "name": "projects/the-cybersecurity-hub/agent/intents/f011a53b-66e9-4af6-a224-7e36bde61b89",
+      "displayName": "ctf's"
+    },
+    "intentDetectionConfidence": 1,
+    "languageCode": "en-in"
+  },
+  "originalDetectIntentRequest": {
+    "source": "google",
+    "version": "2",
+    "payload": {
+      "isInSandbox": true,
+      "surface": {
+        "capabilities": [
+          {
+            "name": "actions.capability.ACCOUNT_LINKING"
+          },
+          {
+            "name": "actions.capability.MEDIA_RESPONSE_AUDIO"
+          },
+          {
+            "name": "actions.capability.AUDIO_OUTPUT"
+          },
+          {
+            "name": "actions.capability.WEB_BROWSER"
+          },
+          {
+            "name": "actions.capability.SCREEN_OUTPUT"
+          }
+        ]
+      },
+      "inputs": [
+        {
+          "rawInputs": [
+            {
+              "query": "CTF's",
+              "inputType": "TOUCH"
+            }
+          ],
+          "arguments": [
+            {
+              "rawText": "CTF's",
+              "textValue": "CTF's",
+              "name": "text"
+            }
+          ],
+          "intent": "actions.intent.TEXT"
+        }
+      ],
+      "user": {
+        "lastSeen": "2019-05-31T13:05:32Z",
+        "locale": "en-IN",
+        "userId": "ABwppHECed1rGlPs03NkvEDP5XPYWhrSBBS40xJM_L9izAfTIKCijQUXRvMaVTIBXmyP0nqygQ_9NyfcBVjqxMKtiJ1-"
+      },
+      "conversation": {
+        "conversationId": "ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX",
+        "type": "ACTIVE",
+        "conversationToken": "[]"
+      },
+      "availableSurfaces": [
+        {
+          "capabilities": [
+            {
+              "name": "actions.capability.WEB_BROWSER"
+            },
+            {
+              "name": "actions.capability.SCREEN_OUTPUT"
+            },
+            {
+              "name": "actions.capability.AUDIO_OUTPUT"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "session": "projects/the-cybersecurity-hub/agent/sessions/ABwppHG89lnTSf258hhdclBzH_bpKvaUn7bl9J7JG2lGLKtuw9PM8OrN9i44ep0TeBvKzJtDWK9H7P4wZnjTSZmBDtJX"
+}
