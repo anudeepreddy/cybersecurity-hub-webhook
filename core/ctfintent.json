@@ -22,6 +22,17 @@
                       "url": "https://ctftime.org/static/images/nologo.png",
                       "accessibilityText": "Facebook CTF 2019"
                     }
+                  },
+                  {
+                    "title": "Facebook CTF 2019",
+                    "openUrlAction": {
+                      "url": "http://www.fbctf.com/"
+                    },
+                    "description": "Facebook is running their first online Jeopardy CTF on May 31st 2019. 1st place - $3,133.7 2nd place - $2,000 3rd place - $1,000 Register at www.fbctf.com.",
+                    "image": {
+                      "url": "https://ctftime.org/static/images/nologo.png",
+                      "accessibilityText": "Facebook CTF 2019"
+                    }
                   }
                 ]
               }
