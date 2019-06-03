@@ -28,7 +28,7 @@ app.post('/webhook',(req,res)=>{
     else if(intent=='ctf walkthrough'){
         data=fs.readFileSync('./core/simpleTextResponse.json','utf-8')
         data = JSON.parse(data)
-        data.payload.google.items[0].simpleResponse={
+        data.payload.google.richResponse.items[0].simpleResponse={
             textToSpeech: "Work in progress. This section will be live soon.",
             displayText: "Work in progress. This section will be live soon."
         }

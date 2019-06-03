@@ -16,7 +16,7 @@ function fetch(){
 function makeItems(data){
     let urllist=[]
     let url='https://hacker-news.firebaseio.com/v0/item/'
-    for(i=0;i<100;i++){
+    for(i=0;i<10;i++){
         urllist.push(url+data[i]+'.json')
     }
     each(urllist,request,(error,contents)=>{
