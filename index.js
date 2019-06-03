@@ -18,7 +18,7 @@ app.post('/webhook',(req,res)=>{
         res.send(JSON.parse(data))
     }
     else if(intent=="ctf's"){
-        res.send(news)
+        res.send(ctf)
     }
     else if(intent=='news'){
         news()
