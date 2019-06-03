@@ -12,16 +12,21 @@ app.get('/',(req, res)=>{
 })
 app.post('/webhook',(req,res)=>{
     intent=req.body.queryResult.intent.displayName
-    console.log(intent)
+    
     if(intent=="Default Welcome Intent"){
+        console.log(intent)
         data=fs.readFileSync(__dirname+'/core/simpleTextResponse.json','utf-8')
         res.send(JSON.parse(data))
     }
     else if(intent=="ctf's"){
-        res.send(ctf)
+        ctf()
+        console.log(intent)
+        data=fs.readFileSync('ctf.json','utf-8')
+        res.send(JSON.parse(data))
     }
     else if(intent=='news'){
         news()
+        console.log(intent)
         data=fs.readFileSync('news.json','utf-8')
         res.send(JSON.parse(data))
     }
@@ -31,6 +36,15 @@ app.post('/webhook',(req,res)=>{
         data.payload.google.richResponse.items[0].simpleResponse={
             textToSpeech: "Work in progress. This section will be live soon.",
             displayText: "Work in progress. This section will be live soon."
+        }
+        res.send(data)
+    }
+    else{
+        data=fs.readFileSync('./core/simpleTextResponse.json','utf-8')
+        data = JSON.parse(data)
+        data.payload.google.richResponse.items[0].simpleResponse={
+            textToSpeech: "Sorry, I didn't get that. Can you rephrase?",
+            displayText: "Sorry, I didn't get that. Can you rephrase?"
         }
         res.send(data)
     }

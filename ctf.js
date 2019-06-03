@@ -34,5 +34,6 @@ function makeItems(data){
         }
     }
     ctf.payload.google.richResponse.items[1].carouselBrowse.items=items
+    fs.writeFileSync('ctf.json',JSON.stringify(ctf))
 }
-module.exports = ctf
+module.exports = fetch
