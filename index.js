@@ -14,7 +14,7 @@ app.post('/webhook',(req,res)=>{
     intent=req.body.queryResult.intent.displayName
     console.log(intent)
     if(intent=="Default Welcome Intent"){
-        data=fs.readFileSync('./core/simpleTextResponse.json','utf-8')
+        data=fs.readFileSync(__dirname+'/core/simpleTextResponse.json','utf-8')
         res.send(JSON.parse(data))
     }
     else if(intent=="ctf's"){
