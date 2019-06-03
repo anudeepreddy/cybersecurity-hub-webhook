@@ -3,7 +3,7 @@ const request = require('request')
 const fs = require('fs')
 const ctf = require('./ctfs.js')
 const app = express()
-const port = 3000
+const port = process.env.PORT || 3000
 var data=''
 app.use(express.json())
 /*ctf((data)=>{
