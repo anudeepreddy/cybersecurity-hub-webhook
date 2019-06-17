@@ -1,0 +1,49 @@
+{
+    "payload": {
+      "google": {
+        "expectUserResponse": true,
+        "richResponse": {
+          "items": [
+            {
+              "simpleResponse": {
+                "textToSpeech": "Here you go."
+              }
+            },
+            {
+              "basicCard": {
+                "title": "Basic Injection",
+                "subtitle": "CTFlearn",
+                "formattedText": "See if you can leak the whole database. The flag is in there somwhere… https://web.ctflearn.com/web4/",
+                "image": {
+                  "url": "https://coderevolution.ro/wp-content/uploads/2018/08/sqlinjection-attack.jpg",
+                  "accessibilityText": "Basic Injection"
+                },
+                "buttons": [
+                  {
+                    "title": "Take the challenge",
+                    "openUrlAction": {
+                      "url": "https://ctflearn.com/problems/88"
+                    }
+                  }
+                ]
+              }
+            }
+          ],
+          "suggestions": [
+            {
+              "title": "CTF's"
+            },
+            {
+              "title": "News"
+            },
+            {
+              "title": "CTF walkthrough"
+            },
+            {
+                "title": "Challenge of the week"
+            }
+          ]
+        }
+      }
+    }
+  }
